@@ -6,6 +6,7 @@
   margin: 147px 110px 0 !important;
   background: rgb(33, 31, 84);
   gap: 70px;
+  margin-bottom: 147px !important;
 }
 
 .message-info span {
