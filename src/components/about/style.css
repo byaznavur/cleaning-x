@@ -51,14 +51,11 @@
   padding: 26px 38px;
   border: none;
   background: rgb(0, 117, 255);
-  border: 1px solid rgb(239, 240, 246);
   transition: all 0.7s ease;
   cursor: pointer;
 }
 
 .about-btn button:hover {
-  border: 1px solid rgb(239, 240, 246);
   color: rgb(0, 117, 255);
-  box-shadow: 0px 4px 10px 0px rgba(20, 20, 43, 0.04);
   background: rgb(255, 255, 255);
 }
