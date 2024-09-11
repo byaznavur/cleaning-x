@@ -45,6 +45,7 @@
 .our-cards {
   display: flex;
   align-items: center;
-  gap: 30px;
+  gap: 40px;
   margin-top: 78px;
+  justify-content: center;
 }
