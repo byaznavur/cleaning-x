@@ -1,0 +1,68 @@
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 110px;
+  background: rgb(247, 249, 252);
+  padding-top: 131px;
+  padding-bottom: 131px;
+}
+
+.contact-info h1 {
+  color: rgb(33, 31, 84);
+  font-family: Roboto;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 57.98px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.contact-info p {
+  color: rgb(110, 113, 145);
+  font-family: Roboto;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 30.01px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin: 36px 0 36px;
+}
+
+.contact-info h3 {
+  color: rgb(33, 31, 84);
+  font-family: Roboto;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 36.01px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin: 86px 0 33px;
+}
+
+.contact-info span {
+  color: rgb(110, 113, 145);
+  font-family: Roboto;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 30.01px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.contact-info button {
+  margin-top: 31px;
+  box-sizing: border-box;
+  border: 1px solid rgb(239, 240, 246);
+  border-radius: 14px;
+  color: rgb(33, 31, 84);
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: center;
+  box-shadow: 0px 4px 10px 0px rgba(20, 20, 43, 0.04);
+  background: rgb(255, 255, 255);
+  padding: 26px 39px;
+}

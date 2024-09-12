@@ -1,4 +1,5 @@
 import phoneImg from "../../assets/image/phone.png";
+import "./style.css";
 const Contact = () => {
   return (
     <div className="contact container">
@@ -18,10 +19,10 @@ const Contact = () => {
           </div>
         </div>
         <h3>Not convinced yet?</h3>
-        <p>
+        <span>
           Massa bibendum consectetur maurisid gravida purus, dolor dui amet
           morbi non nunc urna purus diam.
-        </p>
+        </span>
 
         <button>Browse our packages</button>
       </div>
