@@ -27,29 +27,59 @@ const Contact = () => {
         <button>Browse our packages</button>
       </div>
       <div className="contact-form">
-        <form>
-          <label>
-            <input type="text" />
-          </label>
-          <label>
-            <input type="text" />
-          </label>
-          <label>
-            <input type="text" />
-          </label>
-          <label>
-            <input type="text" />
-          </label>
-          <label>
-            <input type="text" />
-          </label>
-          <label>
-            <input type="text" />
-          </label>
-          <label>
-            <textarea type="text" />
-          </label>
-          <button>Submit message</button>
+        <form className="service-form">
+          <div className="form-group">
+            <input
+              type="text"
+              name="fullname"
+              placeholder="Full name"
+              className="input-field"
+            />
+            <input
+              type="tel"
+              name="phone"
+              placeholder="Phone number"
+              className="input-field"
+            />
+          </div>
+          <div className="form-group">
+            <input
+              type="text"
+              name="address"
+              placeholder="Address"
+              className="input-field"
+            />
+            <input
+              type="email"
+              name="email"
+              placeholder="Email"
+              className="input-field"
+            />
+          </div>
+          <div className="form-group">
+            <input
+              type="text"
+              name="service"
+              placeholder="Requested service"
+              className="input-field"
+            />
+            <input
+              type="date"
+              name="date"
+              placeholder="Day of service"
+              className="input-field"
+            />
+          </div>
+          <div className="textarea-group">
+            <textarea
+              name="message"
+              placeholder="Your message..."
+              className="message-box"
+            ></textarea>
+          </div>
+          <button type="submit" className="submit-button">
+            Submit message
+          </button>
         </form>
       </div>
     </div>
