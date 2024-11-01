@@ -161,6 +161,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 20px 0;
   }
 
   .article-card img {
