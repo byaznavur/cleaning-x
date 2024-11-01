@@ -2,6 +2,7 @@
   display: flex;
   align-items: center;
   padding-left: 110px;
+  gap: 30px;
 }
 
 .herroInfo h1 {
@@ -68,4 +69,92 @@
   line-height: 36.01px;
   letter-spacing: 0%;
   text-align: left;
+}
+
+@media screen and (max-width: 768px) {
+  .herroWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 40px 0;
+  }
+
+  .herroInfo h1 {
+    color: rgb(33, 31, 84);
+    font-family: Roboto;
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 53.98px;
+    letter-spacing: 0%;
+    text-align: center;
+  }
+  .herroInfo p {
+    color: rgb(110, 113, 145);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30.01px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 22px 0 34px 0;
+  }
+
+  .herroCalling {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 40px;
+  }
+
+  .herroCalling button {
+    color: rgb(255, 255, 255);
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: center;
+    border-radius: 14px;
+    background: rgb(0, 117, 255);
+    border: none;
+    padding: 26px 38px;
+    width: 100%;
+    cursor: pointer;
+  }
+
+  .callNumber {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .numInfo span {
+    color: rgb(110, 113, 145);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 1.6px;
+    text-align: left;
+    text-transform: uppercase;
+  }
+
+  .numInfo a {
+    color: rgb(33, 31, 84);
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 36.01px;
+    letter-spacing: 0%;
+    text-align: center;
+  }
+
+  .herroImg img {
+    width: 100%;
+    margin: 0 auto;
+  }
 }

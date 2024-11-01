@@ -41,3 +41,58 @@
   text-align: left;
   margin-bottom: 20px;
 }
+
+@media screen and (max-width: 768px) {
+  .message {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 24px;
+    margin: 50px 0 !important;
+    background: rgb(33, 31, 84);
+    gap: 70px;
+    margin-bottom: 147px !important;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 20px;
+  }
+
+  .message .message-img img {
+    width: 100%;
+  }
+
+  .message-info span {
+    color: rgb(255, 255, 255);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 1.6px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .message-info h2 {
+    color: rgb(255, 255, 255);
+    font-family: Roboto;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 47.98px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 18px 0;
+  }
+
+  .message-info p {
+    color: rgb(255, 255, 255);
+    font-family: Roboto;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 30.01px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+}

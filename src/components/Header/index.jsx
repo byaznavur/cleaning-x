@@ -1,53 +1,50 @@
 import "./style.css";
 import logo from "../../assets/image/logo.png";
+import { GiHamburgerMenu } from "react-icons/gi";
+import { IoClose } from "react-icons/io5";
+
+import { useState } from "react";
 const Header = () => {
+  const [open, setOpen] = useState(false);
+  const toggleBtn = () => {
+    setOpen(!open);
+  };
+
   return (
     <header>
-      <div className="container header">
-        <div className="menu">
-          <div className="logo">
-            <a href="#">
-              <img src={logo} alt="" />
-            </a>
-          </div>
+      <nav className="container navbar">
+        <a href="#">
+          <img src={logo} alt="" />
+        </a>
 
-          <ul className="list">
-            <li className="list-item">
-              <a className="list-item-link" href="#">
-                Home
-              </a>
-            </li>
-            <li className="list-item">
-              <a className="list-item-link" href="#">
-                About
-              </a>
-            </li>
-            <li className="list-item">
-              <a className="list-item-link" href="#">
-                Services
-              </a>
-            </li>
-            <li className="list-item">
-              <a className="list-item-link" href="#">
-                Articles
-              </a>
-            </li>
-            <li className="list-item">
-              <a className="list-item-link" href="#">
-                Contact
-              </a>
-            </li>
-          </ul>
-        </div>
+        <ul className={`${open ? "show-list" : "list"}`}>
+          <li>
+            <a href="#">Home</a>
+          </li>
+          <li>
+            <a href="#">About</a>
+          </li>
+          <li>
+            <a href="#">Services</a>
+          </li>
+          <li>
+            <a href="#">Articles</a>
+          </li>
+          <li>
+            <a href="#">Contact</a>
+          </li>
+          <li>
+            <a href="#">Cart (0)</a>
+          </li>
+          <li>
+            <a href="#">Get a free quote</a>
+          </li>
+        </ul>
 
-        <div className="cart">
-          <p className="cart-shop">
-            Cart <span>(0)</span>
-          </p>
-
-          <button className="cart-btn">Get a free quote</button>
-        </div>
-      </div>
+        <button onClick={toggleBtn} className="btnBurger">
+          {open ? <IoClose /> : <GiHamburgerMenu />}
+        </button>
+      </nav>
     </header>
   );
 };

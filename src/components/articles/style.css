@@ -98,3 +98,111 @@
   display: flex;
   justify-content: space-between;
 }
+
+@media screen and (max-width: 768px) {
+  .article {
+    padding: 0 20px;
+  }
+
+  .article-info {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  .article-info h2 {
+    color: rgb(33, 31, 84);
+    font-family: Roboto;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 57.98px;
+    letter-spacing: 0%;
+    text-align: center;
+  }
+  .article-btn {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+
+  .article-btn button {
+    border-radius: 14px;
+    background: rgb(0, 117, 255);
+    border: none;
+    color: rgb(255, 255, 255);
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding: 28px 39px;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    width: 100%;
+  }
+  .article-btn button:hover {
+    background: rgb(255, 255, 255);
+    color: rgb(0, 117, 255);
+  }
+  .article-cards {
+    display: flex;
+    gap: 20px;
+    margin: 50px 0;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .article-card {
+    width: 100%;
+    height: 630px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .article-card img {
+    width: 100%;
+  }
+  .card-table {
+    box-sizing: border-box;
+    border: 1px solid rgb(239, 240, 246);
+    border-radius: 24px;
+    box-shadow: 0px 2px 6px 0px rgba(20, 20, 43, 0.04);
+    background: rgb(255, 255, 255);
+    width: 100%;
+    height: 324px;
+    left: 0;
+    top: 0;
+    padding: 50px;
+    margin-top: -32px;
+  }
+
+  .card-table h3 {
+    color: rgb(33, 31, 84);
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24.01px;
+    letter-spacing: 0%;
+    text-align: center;
+  }
+
+  .card-table p {
+    color: rgb(110, 113, 145);
+    font-family: Roboto;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 20.01px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 30px 0;
+  }
+
+  .btn-line {
+    display: flex;
+    justify-content: space-between;
+  }
+}
